@@ -8,6 +8,11 @@ updates:
       timezone: "Asia/Jakarta"
     rebase-strategy: "disabled"
     open-pull-requests-limit: 10
+    groups:
+      kotlin-compose:
+        patterns:
+          - "org.jetbrains.kotlin.android*"
+          - "androidx.compose.compiler*"
 
   - package-ecosystem: "github-actions"
     directory: "/"

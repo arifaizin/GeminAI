@@ -39,7 +39,7 @@ android {
         buildConfig = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = libs.tools.android.compose.get().version
     }
     packaging {
         resources {
